@@ -1,0 +1,59 @@
+@font-face{
+  font-family: All Round Gothic Bold;
+  src: url(assets/fonts/All-Round-Gothic/AllRoundGothic-Bold.ttf)
+}
+
+@font-face{
+  font-family: All Round Gothic Book;
+  src: url(assets/fonts/All-Round-Gothic/AllRoundGothic-Book.ttf)
+}
+
+@font-face{
+  font-family: All Round Gothic Book Oblique;
+  src: url(assets/fonts/All-Round-Gothic/AllRoundGothic-BookOblique.ttf)
+}
+
+:root{
+  /* Colors: */
+--purple-light: #58595B;
+--soft-purple: #D2CBE5;
+--purple-dark: #362556;
+--purple: #5C3E98;
+--white: #FFFFFF;
+--grey:#D2CBE5;
+
+--font-family-all-round-gothic-bold: All Round Gothic Bold;
+--font-family-all-round-gothic-book:All Round Gothic Book;
+--font-family-all-round-gothic-book-oblique:All Round Gothic Book Oblique;
+--font-family-fantabular-sans-mvb: Fantabular Sans MVB;
+--font-style-normal: normal;
+--font-style-italic: italic;
+--font-weight-bold: bold;
+--font-weight-normal: normal;
+--font-weight-medium: medium;
+--font-size-31: 31px;
+--font-size-85: 85.1285705566406px;
+--font-size-52: 52.50754928588867px;
+--font-size-52: 52.5075492858887px;
+--character-spacing-4: 4.26px;
+--character-spacing-1: 1.55px;
+--character-spacing-3: 3.94px;
+--line-spacing-38: 38px;
+--line-spacing-48: 48px;
+--line-spacing-82: 82px;
+--line-spacing-102: 102px;
+--line-spacing-63: 63.00905990600586px;
+}
+
+body{
+  font-family: var(--font-family-all-round-gothic-book);
+  font-style:var(--font-style-normal);
+  font-weight: bold;
+  margin:0;
+  font-size: 15px;
+  letter-spacing:0.8px;
+}
+
+a{
+  text-decoration:none;
+}

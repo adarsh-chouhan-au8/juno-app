@@ -1,0 +1,88 @@
+.signup-by-email .col-right
+{
+    background: transparent conic-gradient(from -73deg at 72% 70%, #5C3E98 0.00%, #362556 100.00%) 0% 0% no-repeat padding-box;
+}
+
+.signup-by-email .juno-icon {
+  
+    margin-bottom: 25px;
+}
+
+.signup-by-email .sub-heading{
+    margin-top:8px;
+}
+
+.input-fields-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.signup-by-email input{
+    margin-right:10px;
+    min-width: 220px;
+    padding: 12px 20px;
+}
+
+.next-navigation{
+    margin-top: 18px;
+    font-size: 20px;
+    color: var(--grey);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 99px;
+   
+}
+
+.next-navigation span{
+    border-bottom: 3px solid var(--grey);
+    cursor: pointer;
+     
+}
+
+.right-arrow{
+   
+    font-size: 22px;
+    vertical-align: bottom;
+}
+
+
+@media   (max-width:480px) {
+
+    .signup-by-email .juno-icon{
+        margin-top:25%;
+    }
+
+    .signup-by-email .col-right{
+        display:none;
+    }
+
+    .signup-by-email .col-left{
+        background:transparent conic-gradient(from -63deg at 84% 25%, #5C3E98 0.00%, #362556 100.00%) 0% 0% no-repeat padding-box;
+        /* background: transparent conic-gradient(from -73deg at 72% 70%, #5C3E98 0.00%, #362556 100.00%) 0% 0% no-repeat padding-box; */
+    }
+
+    .signup-by-email input{
+        background:transparent;
+        border: 2px solid var(--grey);
+    }
+
+    .signup-by-email .heading{
+        color:var(--white);
+
+    }
+
+    .signup-by-email .sub-heading{
+
+        color: var(--grey);
+        
+    }
+
+    .next-navigation{
+        margin-right: 75px;;
+    }
+
+
+}
+

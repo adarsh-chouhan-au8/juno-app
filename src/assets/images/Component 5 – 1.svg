@@ -1,0 +1,8 @@
+<svg id="Component_5_1" data-name="Component 5 – 1" xmlns="http://www.w3.org/2000/svg" width="364" height="58" viewBox="0 0 364 58">
+  <rect id="Rectangle_1528" data-name="Rectangle 1528" width="364" height="58" rx="29" fill="#5c3e98"/>
+  <text id="Sign_up_with_email" data-name="Sign up with email" transform="translate(199 37)" fill="#fff" font-size="23" font-family="AllRoundGothic-Bold, All Round Gothic" font-weight="700" letter-spacing="0.05em"><tspan x="-123" y="0">SIGN UP WITH EMAIL</tspan></text>
+  <g id="Group_1513" data-name="Group 1513" transform="translate(23 16)">
+    <path id="Path_1083" data-name="Path 1083" d="M4.293,4H22.635a2.3,2.3,0,0,1,2.293,2.293V20.049a2.3,2.3,0,0,1-2.293,2.293H4.293A2.3,2.3,0,0,1,2,20.049V6.293A2.3,2.3,0,0,1,4.293,4Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_1084" data-name="Path 1084" d="M24.928,6l-7.643,7.133L13.464,16.7,2,6" transform="translate(0 -0.302)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

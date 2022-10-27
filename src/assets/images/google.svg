@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.064" height="30.678" viewBox="0 0 30.064 30.678">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Intersection_2" data-name="Intersection 2" d="M5.194,14.411v-3.85A7.051,7.051,0,0,0,8.255,5.933H0V0H14.444a17.48,17.48,0,0,1,.281,3.137A14.956,14.956,0,0,1,10.15,14.411Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Intersection_4" data-name="Intersection 4" d="M0,3.974V0H5.125a9.143,9.143,0,0,0,8.584,6.323A9.218,9.218,0,0,0,18.9,4.858l4.956,3.85a14.64,14.64,0,0,1-10.15,3.717A15.336,15.336,0,0,1,0,3.974Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Intersection_5" data-name="Intersection 5" d="M0,6.889A15.336,15.336,0,0,1,1.63,0H6.755V3.974a9.086,9.086,0,0,0,0,5.829L1.63,13.777A15.341,15.341,0,0,1,0,6.889Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Path_1095" data-name="Path 1095" d="M29.665,21.1a8.288,8.288,0,0,1,5.863,2.292l4.4-4.4A14.745,14.745,0,0,0,29.665,15a15.335,15.335,0,0,0-13.708,8.45l5.125,3.974A9.142,9.142,0,0,1,29.665,21.1Zm0,0" transform="translate(-15.957 -15)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g id="google" transform="translate(15.032 15.339)">
+    <g id="Group_1528" data-name="Group 1528" transform="translate(-15.032 -15.339)">
+      <g id="Group_1521" data-name="Group 1521" transform="translate(15.339 12.551)">
+        <g id="Group_1520" data-name="Group 1520" clip-path="url(#clip-path)">
+          <rect id="Rectangle_1482" data-name="Rectangle 1482" width="31.768" height="31.454" transform="translate(-8.522 -8.522)" fill="#3e82f1"/>
+        </g>
+      </g>
+      <g id="Group_1523" data-name="Group 1523" transform="translate(1.63 18.254)">
+        <g id="Group_1522" data-name="Group 1522" clip-path="url(#clip-path-2)">
+          <rect id="Rectangle_1484" data-name="Rectangle 1484" width="40.902" height="29.467" transform="translate(-8.521 -8.522)" fill="#32a753"/>
+        </g>
+      </g>
+      <g id="Group_1525" data-name="Group 1525" transform="translate(0 8.451)">
+        <g id="Group_1524" data-name="Group 1524" clip-path="url(#clip-path-3)">
+          <rect id="Rectangle_1486" data-name="Rectangle 1486" width="23.799" height="30.82" transform="translate(-8.522 -8.522)" fill="#f9bb00"/>
+        </g>
+      </g>
+      <g id="Group_1527" data-name="Group 1527" transform="translate(1.63)">
+        <g id="Group_1526" data-name="Group 1526" clip-path="url(#clip-path-4)">
+          <rect id="Rectangle_1488" data-name="Rectangle 1488" width="41.013" height="29.467" transform="translate(-8.521 -8.521)" fill="#e74235"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

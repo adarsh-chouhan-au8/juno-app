@@ -1,0 +1,316 @@
+.container{
+    display:flex;
+    color:black;
+    flex-flow: row wrap;
+}
+
+.juno-icon {
+    width: 99px;
+    margin-top: 30px;
+    margin-bottom: 22px;
+}
+
+
+.col-left{
+    text-align:center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content:center
+}
+
+.register-section{
+    align-self: center;
+}
+
+.col-right{
+    /* max-width: 715px; */
+    /* overflow: hidden; */
+    background-image: url(../../assets/images/support-group.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+}
+
+.col-left,.col-right{
+    flex:50%;
+}
+
+.icons{
+    display:flex;
+    justify-content: center;
+    margin-top:15px;
+    
+}
+
+.icons div{
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 19px;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 10%), -5px -5px 10px rgb(0, 0, 0, 0.1);
+    width: 42px;
+    height: 42px;
+
+}
+
+.signup-icons{
+    margin-top:30px;
+}
+
+.signup-icons svg {
+    width: 38px;
+    height: 38px;
+}
+
+
+input{
+    padding:13px 20px;
+    border:2px solid var(--purple-dark);
+    border-radius:25px;
+}
+
+.form-control{
+    margin-top: 20px;
+}
+
+
+
+.facebook-icon svg {
+    /* margin-top: 2px; */
+}
+
+.google-icon{
+    /* width:30.6px !important;
+    height:30.6px !important; */
+    /* padding:30px; */
+
+}
+
+.google-icon svg {
+    margin-top: 6px;
+    width: 28px !important;
+    height: 28px !important;
+}
+
+.apple-icon{
+    background-color: black;
+
+}
+
+img.apple-icon-1 {
+    width: 30px;
+    margin-top: -2px;
+}
+
+ .microsoft-icon{
+
+ }
+
+ .facebook-icon{
+    background-color:#3A5998;
+
+ }
+
+ .j-icon{
+    font-family: var(--font-family-all-round-gothic-bold);
+    font-size: 50px;
+ }
+
+ .heading{
+    font-family: var(--font-family-all-round-gothic-bold);
+    font-size: 40px;
+    color:var(--purple-dark);
+    letter-spacing: 0.8px;
+    line-height:48px;
+ }
+
+ .sub-heading{
+    font-family: var(--font-family-all-round-gothic-book);
+    font-size: 15px;
+    color: var(--purple-light);
+    text-transform: capitalize;
+    /* font-weight: normal !important; */
+    padding:0 20%;
+ line-height:21px;
+ }
+
+ .lateral-heading{
+    font-family: var(--font-family-all-round-gothic-book-oblique) ;
+    color: var(--purple-light);
+    font-size: 15px;
+ }
+
+ .seperator{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+ }
+
+ .left-border,.right-border{
+    min-width: 120px;
+    border-top: 1px solid var(--soft-purple)
+ }
+
+ .seperator-text{
+    color: var(--soft-purple);
+    margin: 15px 20px;
+    font-size: 15px;
+ }
+
+ .btn-1{
+
+    border-radius: 23px;
+    background-color: var(--purple);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 276px;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor:pointer;
+    transition: all 0.3s;
+ }
+
+ .btn-1:hover{
+    background-color: var(--white);
+    color: var(--purple);
+    border: 3px solid var(--purple);
+
+ }
+
+ .btn-1 a{
+    color: var(--white);
+
+ }
+
+ .btn-1 a:hover{
+    color: var(--purple);
+
+ }
+
+ .btn-1:hover > .mail-icon{
+    color: var(--purple);
+
+ }
+
+ .mail-icon{
+    color: var(--white);
+    margin-right: 23px;
+    font-size: 21px;
+ }
+
+ 
+
+ .go-to-login{
+    margin-top:30px;
+    color: var(--purple);
+    
+ }
+
+ .go-to-login a{
+    color: var(--purple-dark);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--font-family-all-round-gothic-bold);
+
+ }
+
+ .juno-jumbotron{
+    max-width: 435px;
+    height: 100vh;
+ }
+
+ .footer{
+    font-size:11px;
+    color: var(--purple-light);
+   margin-top:90px;
+   margin-bottom:10px;
+ }
+
+ @media   (max-width:480px) {
+
+    .col-left{
+        order:1;
+    }
+
+    .col-right{
+        height: 300px;
+        opacity: 1;
+    }
+
+    .juno-jumbotron{
+        height:auto;
+        width:65%;
+    }
+
+    .juno-icon{
+        margin-top: -53px;
+        /* background: transparent; */
+        z-index: 11;
+        width: 87px;
+    }
+
+    .heading
+    {
+        font-size:35px;
+    }
+    .sub-heading,.lateral-heading{
+        font-size:15px;
+        padding:0 7%;
+    }
+
+    body {
+        font-size: 13px;
+    }
+
+    .icons div{
+        width: 35px;
+        height: 35px;
+        margin-left:14px;
+
+    }
+
+    .signup-icons svg {
+        width: 34px;
+        height: 34px;
+    }
+
+
+    .btn-1{
+        max-width: 230px ;
+        font-size: 15px;;
+    }
+
+    .mail-icon{
+        margin-right: 12px ;
+    }
+
+    .google-icon svg{
+        width: 25px;
+        height: 25px;
+        margin-top:5px;
+    }
+
+    .facebook-icon svg{
+        margin-top:0px;
+    }
+
+    img.apple-icon-1 {
+        width: 27px;
+        margin-top: -3px;
+    }
+
+
+    
+    
+ }
